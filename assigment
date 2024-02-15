@@ -1,0 +1,137 @@
+#include <iostream>
+#include <cmath>
+
+double prompt_total(double total_amount){
+    if (total_amount < 0){
+        std::cout << "error" << std::endl;
+        }
+}
+
+int main() {
+    double b_max = 10000;
+
+	std::cout << "Enter the total amount of money that you have to invest for m (in dollars, as a whole number): ";
+    double m;
+	std::cin >> m;
+    prompt_total(m);
+            
+    if (m > 0){
+        std::cout << "Enter the APY of DIC insurance maximum for b1_max (maximum balance in dollars) of their target HYSA account." << std::endl;
+        int b1_max;
+        std::cin >> b1_max; 
+        std::cout << "Enter the APY of your target HYSA for a1 (as a percent)" << std::endl;
+        int a1;
+        std::cin >> a1;
+        
+        if (b1_max < 0){
+            b1_max = 250000;
+            if (a1 < 0){
+                std::cout << "negative values are not allowed" << std::endl;
+            } else{ 
+            std::cout << "negative values are not allowed" << std::endl;
+            }
+        }
+        else {
+            if (a1 < 0){
+                std::cout << "negative values are not allowed" << std::endl;   
+            } else{ 
+                int b1_max;
+	            std::cin >> b1_max;
+            }
+        }
+    }
+    std::cout << "Please enter the current APY (in percent) of US treasury I bonds for a2 (as a percent)"<< std::endl;
+	int a2;
+	std::cin >> a2;
+    if (a2 < 0){
+        a2 = 6;
+        std::cout << "negative values are not allowed" << std::endl;
+    } else {
+        std::cout << "Please enter the APY of their target index fund for a3"<< std::endl;
+        int a3;
+	    std::cin >> a3;
+    }
+
+
+    if (a3 < 0){
+        a3 = 10;
+        std::cout << "negative values are not allowed" << std::endl;
+    } else {
+        std::cout << "Please enter the APY of their target index fund for a3"<< std::endl;
+    }
+
+
+
+
+
+if (a1 >= a2 && a1 >= a3){
+    double first_apy = a1;
+    if (a2 >= a3){
+    double second_apy = a2;
+    double third_apy =  a3;    
+    }
+    else{
+    double second_apy = a3;
+    double third_apy =  a2;    
+    }
+else if (a2 >= a1 && a2 >= a3){
+    double first_apy = a2
+}
+    if 
+}
+
+
+
+if (a1 > a2){
+    if (a2 > a3){
+        if (m1 > b1_max)
+        return b1_max
+        }
+        else{
+        int p1 = m1*(a2/100) ;
+ 	    std::cout << "p1 is: " << p1 << std::endl;
+
+        int p2 = m2_max*(a2/100) ;
+        std::cout << "p2 is: " << p2 << std::endl;
+
+        }
+    else {
+        if (m1 > b1_max){
+        int p1 = m1*(a1/100) ;
+ 	    std::cout << "p1 is: " << p1 << std::endl;
+        
+        int p3 = (m - (b2_max + m1))*(a3/100)
+        std::cout << "p3 is: " << p3 << std::endl;
+
+        int p2 = b2_max*(a2/100)
+        std::cout << "p2 is: " << p2 << std::endl;
+        }
+        
+        else{
+        int p1 = b1_max*(a1/100) ;
+ 	    std::cout << "p1 is: " << p1 << std::endl;
+        }
+
+    }
+
+else 
+    if (a2 > a3){
+        if (m1 > b1_max)
+        return b1_max
+        else
+        int p1 = m1*(a1/100) ;
+ 	    std::cout << "p1 is: " << p1 << std::endl;
+    }
+    else {
+        if (m1 > b1_max)
+        return b1_max
+        
+        else
+        int p1 = m1*(a1/100) ;
+ 	    std::cout << "p1 is: " << p1 << std::endl;
+}}
+if (a2 > a3){
+    if (a1 > a2){
+
+    }
+}
